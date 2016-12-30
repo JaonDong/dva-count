@@ -2,8 +2,7 @@ import React from 'react';
 import styles from './index.less';
 
 const Example = ({record,current,dispatch}) => {
-  console.log(record);
-   console.log(current);
+  
   return (
     <div className="{styles.normal}">
       <div className="{styles.record}">Highest Record:{record}</div>

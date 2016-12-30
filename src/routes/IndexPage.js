@@ -3,9 +3,13 @@ import { connect } from 'dva';
 import Example from '../components/Example';
 
 const IndexPage=({dispatch,example})=>{
-  console.log(dispatch);
+  
   return (
-   <Example {...example} dispatch={dispatch}></Example>
+    <div>
+       <Example {...example} dispatch={dispatch}></Example>
+       <button>123</button>
+    </div>
+
   );
 };
 
